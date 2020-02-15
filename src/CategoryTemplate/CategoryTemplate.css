@@ -1,0 +1,42 @@
+.new-cat-item-bttn {
+    float: right;
+    margin-top: 20px;
+}
+
+.cat-item {
+    height: 50px;
+    border-bottom: 1px solid #cccccc;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-basis: auto;
+}
+
+.cat-item > input {
+    width: 5%;
+}
+
+.cat-item > label {
+    width: 80%;
+}
+
+.cat-item > span {
+    cursor: pointer;
+}
+
+.message {
+    height: 30px;
+    border: 1px solid #80e080;
+    padding-top: 12px;
+    text-align: center;
+    background-color: #80e080;
+}
+
+.message-close {
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.strickThrough {
+    text-decoration: line-through;
+}
